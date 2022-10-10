@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09D4B7E328E2B6830057AC58 /* ARScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4B7E228E2B6830057AC58 /* ARScannerApp.swift */; };
+		09D4B7E528E2B6830057AC58 /* ARSceneViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4B7E428E2B6830057AC58 /* ARSceneViewContentView.swift */; };
+		09D4B7E728E2B6840057AC58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D4B7E628E2B6840057AC58 /* Assets.xcassets */; };
+		09D4B7EA28E2B6840057AC58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D4B7E928E2B6840057AC58 /* Preview Assets.xcassets */; };
+		09D4B7F128E2B69D0057AC58 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4B7F028E2B69D0057AC58 /* ARViewContainer.swift */; };
+		09D4B7F328E45ABD0057AC58 /* ARView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4B7F228E45ABD0057AC58 /* ARView+Extension.swift */; };
+		09D4B83128E9ED9C0057AC58 /* ARSceneViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4B83028E9ED9C0057AC58 /* ARSceneViewContainer.swift */; };
+		09D4B83328E9F5E90057AC58 /* ARSceneView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4B83228E9F5E90057AC58 /* ARSceneView+Extension.swift */; };
+		09D4B83628E9F7230057AC58 /* ARViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4B83528E9F7230057AC58 /* ARViewContentView.swift */; };
+		09D4B83928EB4DEB0057AC58 /* SCNGeometry+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4B83828EB4DEB0057AC58 /* SCNGeometry+Ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09D4B7DF28E2B6830057AC58 /* ARScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09D4B7E228E2B6830057AC58 /* ARScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScannerApp.swift; sourceTree = "<group>"; };
+		09D4B7E428E2B6830057AC58 /* ARSceneViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneViewContentView.swift; sourceTree = "<group>"; };
+		09D4B7E628E2B6840057AC58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09D4B7E928E2B6840057AC58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09D4B7F028E2B69D0057AC58 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		09D4B7F228E45ABD0057AC58 /* ARView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARView+Extension.swift"; sourceTree = "<group>"; };
+		09D4B83028E9ED9C0057AC58 /* ARSceneViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneViewContainer.swift; sourceTree = "<group>"; };
+		09D4B83228E9F5E90057AC58 /* ARSceneView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARSceneView+Extension.swift"; sourceTree = "<group>"; };
+		09D4B83528E9F7230057AC58 /* ARViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContentView.swift; sourceTree = "<group>"; };
+		09D4B83828EB4DEB0057AC58 /* SCNGeometry+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNGeometry+Ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09D4B7DC28E2B6830057AC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09D4B7D628E2B6830057AC58 = {
+			isa = PBXGroup;
+			children = (
+				09D4B7E128E2B6830057AC58 /* ARScanner */,
+				09D4B7E028E2B6830057AC58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09D4B7E028E2B6830057AC58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09D4B7DF28E2B6830057AC58 /* ARScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09D4B7E128E2B6830057AC58 /* ARScanner */ = {
+			isa = PBXGroup;
+			children = (
+				09D4B83728E9F74D0057AC58 /* ARSceneView */,
+				09D4B83428E9F6F00057AC58 /* ARView */,
+				09D4B7E228E2B6830057AC58 /* ARScannerApp.swift */,
+				09D4B7E628E2B6840057AC58 /* Assets.xcassets */,
+				09D4B7E828E2B6840057AC58 /* Preview Content */,
+			);
+			path = ARScanner;
+			sourceTree = "<group>";
+		};
+		09D4B7E828E2B6840057AC58 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				09D4B7E928E2B6840057AC58 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09D4B83428E9F6F00057AC58 /* ARView */ = {
+			isa = PBXGroup;
+			children = (
+				09D4B7F028E2B69D0057AC58 /* ARViewContainer.swift */,
+				09D4B7F228E45ABD0057AC58 /* ARView+Extension.swift */,
+				09D4B83528E9F7230057AC58 /* ARViewContentView.swift */,
+			);
+			path = ARView;
+			sourceTree = "<group>";
+		};
+		09D4B83728E9F74D0057AC58 /* ARSceneView */ = {
+			isa = PBXGroup;
+			children = (
+				09D4B83028E9ED9C0057AC58 /* ARSceneViewContainer.swift */,
+				09D4B83228E9F5E90057AC58 /* ARSceneView+Extension.swift */,
+				09D4B7E428E2B6830057AC58 /* ARSceneViewContentView.swift */,
+				09D4B83828EB4DEB0057AC58 /* SCNGeometry+Ext.swift */,
+			);
+			path = ARSceneView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09D4B7DE28E2B6830057AC58 /* ARScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09D4B7ED28E2B6840057AC58 /* Build configuration list for PBXNativeTarget "ARScanner" */;
+			buildPhases = (
+				09D4B7DB28E2B6830057AC58 /* Sources */,
+				09D4B7DC28E2B6830057AC58 /* Frameworks */,
+				09D4B7DD28E2B6830057AC58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARScanner;
+			productName = ARScanner;
+			productReference = 09D4B7DF28E2B6830057AC58 /* ARScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09D4B7D728E2B6830057AC58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					09D4B7DE28E2B6830057AC58 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 09D4B7DA28E2B6830057AC58 /* Build configuration list for PBXProject "ARScanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09D4B7D628E2B6830057AC58;
+			productRefGroup = 09D4B7E028E2B6830057AC58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09D4B7DE28E2B6830057AC58 /* ARScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09D4B7DD28E2B6830057AC58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D4B7EA28E2B6840057AC58 /* Preview Assets.xcassets in Resources */,
+				09D4B7E728E2B6840057AC58 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09D4B7DB28E2B6830057AC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D4B83128E9ED9C0057AC58 /* ARSceneViewContainer.swift in Sources */,
+				09D4B7E528E2B6830057AC58 /* ARSceneViewContentView.swift in Sources */,
+				09D4B83328E9F5E90057AC58 /* ARSceneView+Extension.swift in Sources */,
+				09D4B7E328E2B6830057AC58 /* ARScannerApp.swift in Sources */,
+				09D4B83928EB4DEB0057AC58 /* SCNGeometry+Ext.swift in Sources */,
+				09D4B7F128E2B69D0057AC58 /* ARViewContainer.swift in Sources */,
+				09D4B7F328E45ABD0057AC58 /* ARView+Extension.swift in Sources */,
+				09D4B83628E9F7230057AC58 /* ARViewContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09D4B7EB28E2B6840057AC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09D4B7EC28E2B6840057AC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09D4B7EE28E2B6840057AC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = 5M67Q8ZZ53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.killongtime.ARScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09D4B7EF28E2B6840057AC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = 5M67Q8ZZ53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.killongtime.ARScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09D4B7DA28E2B6830057AC58 /* Build configuration list for PBXProject "ARScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D4B7EB28E2B6840057AC58 /* Debug */,
+				09D4B7EC28E2B6840057AC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09D4B7ED28E2B6840057AC58 /* Build configuration list for PBXNativeTarget "ARScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D4B7EE28E2B6840057AC58 /* Debug */,
+				09D4B7EF28E2B6840057AC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09D4B7D728E2B6830057AC58 /* Project object */;
+}
