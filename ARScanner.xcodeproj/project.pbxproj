@@ -16,6 +16,7 @@
 		09D4B83128E9ED9C0057AC58 /* ARSceneViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4B83028E9ED9C0057AC58 /* ARSceneViewContainer.swift */; };
 		09D4B83328E9F5E90057AC58 /* ARSceneView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4B83228E9F5E90057AC58 /* ARSceneView+Extension.swift */; };
 		09D4B83628E9F7230057AC58 /* ARViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4B83528E9F7230057AC58 /* ARViewContentView.swift */; };
+		09D4B83928EB4DEB0057AC58 /* SCNGeometry+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D4B83828EB4DEB0057AC58 /* SCNGeometry+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		09D4B83028E9ED9C0057AC58 /* ARSceneViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneViewContainer.swift; sourceTree = "<group>"; };
 		09D4B83228E9F5E90057AC58 /* ARSceneView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARSceneView+Extension.swift"; sourceTree = "<group>"; };
 		09D4B83528E9F7230057AC58 /* ARViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContentView.swift; sourceTree = "<group>"; };
+		09D4B83828EB4DEB0057AC58 /* SCNGeometry+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNGeometry+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				09D4B83028E9ED9C0057AC58 /* ARSceneViewContainer.swift */,
 				09D4B83228E9F5E90057AC58 /* ARSceneView+Extension.swift */,
 				09D4B7E428E2B6830057AC58 /* ARSceneViewContentView.swift */,
+				09D4B83828EB4DEB0057AC58 /* SCNGeometry+Ext.swift */,
 			);
 			path = ARSceneView;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				09D4B7E528E2B6830057AC58 /* ARSceneViewContentView.swift in Sources */,
 				09D4B83328E9F5E90057AC58 /* ARSceneView+Extension.swift in Sources */,
 				09D4B7E328E2B6830057AC58 /* ARScannerApp.swift in Sources */,
+				09D4B83928EB4DEB0057AC58 /* SCNGeometry+Ext.swift in Sources */,
 				09D4B7F128E2B69D0057AC58 /* ARViewContainer.swift in Sources */,
 				09D4B7F328E45ABD0057AC58 /* ARView+Extension.swift in Sources */,
 				09D4B83628E9F7230057AC58 /* ARViewContentView.swift in Sources */,

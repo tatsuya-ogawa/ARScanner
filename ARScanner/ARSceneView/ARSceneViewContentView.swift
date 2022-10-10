@@ -20,6 +20,10 @@ struct ARSceneViewContentView {
         let session = ARSession()
         let configuration = ARWorldTrackingConfiguration()
         configuration.sceneReconstruction = .mesh
+        if type(of: configuration).supportsFrameSemantics(.sceneDepth) {
+           // Activate sceneDepth
+           configuration.frameSemantics = .sceneDepth
+        }
         session.run(configuration)
         self.session = session
 
